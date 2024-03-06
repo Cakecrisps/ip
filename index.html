@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>HTML5</title>
+  <script src="/static/main/js/menu.js"></script>
+  <link rel="stylesheet" type="text/css" href="/static/main/css/index.css" />
+  </head>
+ <body>
+  <div class = "top">
+      <ul class = "top_items">
+          <li class = "top_item"><a href = "/" class = "titul">Site.sosipisku</a><form class = "label"><input type="text"></form></li>
+          {% if is_login %}
+          <li class = "top_item_2">
+              <button class = "menu" type="button" onclick="toggleDivVisibility('cal')">|||</button></li>
+            <p class = "user">{{username}} {{lvl}}</p>
+              <ul class="nav-links" id = "cal">
+            <li><a class = "bg" href="/profile">Профиль</a></li>
+            <li><a class = "bg" href="/myposts">Мои посты</a></li>
+            <li><a class = "bg" href="/adposts">Добавить пост</a></li>
+            <li><a class = "bg" href="/about">О нас</a></li>
+              </ul>
+          {% endif %}
+          {% if not is_login%}
+          <li class = "login_b"><a class = "login_b_a" href="/login">Войти</a></li>
+          {% endif %}
+      </ul>
+  </div>
+  <div class = "mainpart">
+      {% for p in posts %}
+    <div class = "post">
+      <a class = "govn" href="/post/{{p.author}}/{{p.id}}">
+      <img src = "media/{{p.img}}"></img>
+      <p class = "short_disc">{{p.desc}}</p>
+    </a>
+    </div>
+        {% endfor %}
+  </div>
+ </body>
+</html>
