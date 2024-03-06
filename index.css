@@ -1,0 +1,170 @@
+
+li {
+    list-style-type: none; 
+   }
+.reg_b_b{
+    font-size: 15px;
+    width: 100px;
+    height: 24px;
+    background-color: transparent;
+    margin-top: 20px;
+}
+.login_b_b{
+    font-size: 26px;
+    width: 100px;
+    height: 24px;
+    background-color: transparent;
+    margin-top: 20px;
+}
+.reg{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+}
+.login_zone{
+    text-align: center;
+    position: absolute;
+    margin-right: 50%;
+    margin-left: 43%;
+    font-size: 30px;
+    color: white;
+    overflow: auto;
+}
+.pass{
+    margin-top: 30px;
+}
+.govn{
+text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+.bg {
+    text-decoration: none; 
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(31, 31, 31);
+}
+.top{
+    background-color: #000000;
+    color: white;
+}
+.top_items{
+    display: flex;
+}
+.hui{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+.top_item,.top_item_2{
+    display: inline; 
+    margin-right: 5px;
+}
+.top_item_2{
+    vertical-align: middle;
+    margin-left: 70%;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+.login_b_a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+.login_b{
+    vertical-align: middle;
+    margin-left: 70%;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top:15px;
+}
+.titul{
+    font-size: 26px;
+    background-color:#000000;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.menu{
+    display:flex;
+    margin-top: 17px;
+}
+
+.mainpart{
+    margin-top: 1%;
+    display: flex;
+    padding: 20px;
+    flex-wrap:wrap;
+    width: 100%;
+}
+.post{
+    width: 480px;
+    height: 380px;
+    margin-left: 5%;
+    font-size: 25px;
+    margin-bottom: 3%;
+    background-color: #333;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 0 1rem;
+}
+.hamburger-menu{
+    display: flex;
+}
+.hamburger {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+.nav-links {
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: right;
+    font-size: 20px;
+}
+button{
+    background: black;
+    outline: none;
+    border: none;
+    color: white;
+}
+.about_me{
+    display: flex;
+    font-size: 30px;
+    color: white;
+    height: 50%;
+    width: 100%;
+}
+.stop{
+    margin-left: 40px;
+    width: 50%;
+}
+.activity{
+    height: 40%;
+    width: 100%;
+    font-size: 34px;
+    color: white;
+}
+.point{
+    margin: 10px;
+    margin-bottom: 40px;
+}
